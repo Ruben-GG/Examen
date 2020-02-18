@@ -20,7 +20,7 @@ function showProfile(response) {
         <div class="container">
             <div class="row boxInfo">
                 <div class="col-lg-6 col-12 d-flex flex-column">
-                    <div class="row d-flex justify-content-center">
+                    <div class="row">
                         <div class="d-flex">
                             <img src="${response.results[i].picture.large}" alt="">
                         </div>
