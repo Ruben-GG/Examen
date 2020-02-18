@@ -1,17 +1,19 @@
-body{
+body {
     text-align: center;
 }
 
-img{
+img {
     padding-top: 5px;
     height: 250px;
 }
 
-.boxInfo{
+.boxInfo {
+    padding: 10px 0;
     border: 1px solid grey;
     margin: 5px;
 }
 
-.name{
+.name {
+    font-size: 20px;
     font-weight: bold !important;
 }
