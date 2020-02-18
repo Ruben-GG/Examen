@@ -1,3 +1,17 @@
 body{
     text-align: center;
 }
+
+img{
+    padding-top: 5px;
+    height: 250px;
+}
+
+.boxInfo{
+    border: 1px solid grey;
+    margin: 5px;
+}
+
+.name{
+    font-weight: bold !important;
+}
