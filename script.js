@@ -19,17 +19,20 @@ function showProfile(response) {
         info.innerHTML += `
         <div class="container">
             <div class="row boxInfo">
-                <div class="col-xl-6 col-12 d-flex flex-column">
-                    <img src="${response.results[i].picture.large}" alt="">
-                    <span class="name">${response.results[i].name.title}  ${response.results[i].name.first}  ${response.results[i].name.last}</span>
-                    <span><i class="fas fa-phone-alt"></i> ${response.results[i].phone}</span>
-                    <span><i class="far fa-user"></i> ${response.results[i].login.username}</span>
-                    <span><i class="far fa-envelope"></i> ${response.results[i].email}</span>
-                    <span><i class="fas fa-birthday-cake"></i> ${day}-${month}-${year}</span>
-                    <span><i class="fas fa-map"></i> ${response.results[i].location.street.number}, ${response.results[i].location.street.name}, ${response.results[i].location.city}, ${response.results[i].location.state}</span>
-                </div>
-                <div class="col-sm-6 col-12">
-                    <h1></h1>
+                <div class="col-lg-6 col-12 d-flex flex-column">
+                    <div class="row">
+                        <div class="d-flex">
+                            <img src="${response.results[i].picture.large}" alt="">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="name">${response.results[i].name.title}  ${response.results[i].name.first}  ${response.results[i].name.last}</span>
+                            <span><i class="fas fa-phone-alt"></i> ${response.results[i].phone}</span>
+                            <span><i class="far fa-user"></i> ${response.results[i].login.username}</span>
+                            <span><i class="far fa-envelope"></i> ${response.results[i].email}</span>
+                            <span><i class="fas fa-birthday-cake"></i> ${day}-${month}-${year}</span>
+                            <span><i class="fas fa-map"></i> ${response.results[i].location.street.number}, ${response.results[i].location.street.name}, ${response.results[i].location.city}, ${response.results[i].location.state}</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
